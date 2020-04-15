@@ -11,7 +11,7 @@ It provides the easiest and fastest way to integrate with your application, no m
 ### Prerequisites 
 * Java 8+
 * Maven ^3.6.0
-* Stripe Account
+* [Stripe Account](https://dashboard.stripe.com/register)
 
 ### Configuration
 To use this code sample you need to change the **Stripe.apiKey** 
@@ -36,4 +36,4 @@ with this source Credit Card and then charge this customer every time he purchas
 
 ### Community
 * Please send us your suggestions on how we make this code even more useful for the development community or contribute to this repo!
-* Check out our [blog](https://oril.co/blog) with more articles!”
+* Check out our [blog](https://oril.co/blog) with more articles!
