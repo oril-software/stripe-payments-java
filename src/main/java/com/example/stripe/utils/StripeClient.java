@@ -15,13 +15,9 @@ import java.util.Map;
 public class StripeClient {
 
 	StripeClient() {
-		Stripe.apiKey = "sk_test_uTAM1qndRDbiJRowe8dJf6x9";
+		Stripe.apiKey = "sk_test_XXXXXXXXXXXXXXXXXXX";
 	}
 
-	//*IMPORTANT: it's highly recommend to retrieve this token on the front-end side using Stripe form
-	//*This method is only for demonstration purpose of how to use it on the backend side
-	//*This token is only for one-time usage. Can be used for charging credit card or for creating customer with source credit card
-	//*It should be used to create customer SOURCE (i.e. source credit card)
 	public Token createCardToken (CreditCardDTO creditCard) throws StripeException {
 		Map<String, Object> card = new HashMap<>();
 		card.put("number", creditCard.getNumber());
